@@ -12,7 +12,7 @@ import java.io.Writer;
 public class CopyTestByBuf {
 
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub 
+
 		Reader reader = new FileReader("D:"+File.separator+"1.txt");
 		BufferedReader br = new BufferedReader(reader);
 		
