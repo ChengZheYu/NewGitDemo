@@ -13,10 +13,10 @@ public class CopyTestByBuf {
 
 	public static void main(String[] args) throws IOException {
 
-		Reader reader = new FileReader("D:"+File.separator+"1.txt");
+		Reader reader = new FileReader("D:"+File.separator+"3.txt");
 		BufferedReader br = new BufferedReader(reader);
 		
-		Writer writer = new FileWriter("D:"+File.separator+"2.txt");
+		Writer writer = new FileWriter("D:"+File.separator+"4.txt");
 		BufferedWriter bw = new BufferedWriter(writer);
 		
 		int ch = 0;
