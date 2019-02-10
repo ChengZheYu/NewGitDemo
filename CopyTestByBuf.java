@@ -12,7 +12,7 @@ import java.io.Writer;
 public class CopyTestByBuf {
 
 	public static void main(String[] args) throws IOException {
-
+	    //添加注释
 		Reader reader = new FileReader("D:"+File.separator+"3.txt");
 		BufferedReader br = new BufferedReader(reader);
 		
